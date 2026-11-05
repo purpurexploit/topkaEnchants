@@ -1,0 +1,14 @@
+name: topkaEnchants
+version: "2"
+main: com.topka.enchants.TopkaEnchants
+api-version: "1.21"
+description: Custom enchantments
+softdepend: [Vault, WorldGuard, WorldEdit, Essentials]
+commands:
+  topkaEnchants:
+    permission: topkaEnchants.admin
+    description: Выдает книгу с зачарованием
+    usage: /topkaEnchants <Энчант> <Ник>
+permissions:
+  topkaEnchants.admin:
+    default: op
